@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Melhorando a fonte */
+    margin: 0;
+    padding: 0;
+    background-color: #ffcc00; /* Cor de fundo mais exótica */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px; /* Aumentando o raio da borda para uma aparência mais arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Melhorando a sombra para uma aparência mais elegante */
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #4CAF50; /* Adicionando uma borda com uma cor mais bonita */
+    border-radius: 8px; /* Arredondando as bordas do fieldset */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #4CAF50; /* Cor mais bonita para o texto da legenda */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    font-size: 16px; /* Aumentando o tamanho da fonte para melhor legibilidade */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
